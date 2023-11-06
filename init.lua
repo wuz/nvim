@@ -38,7 +38,7 @@ require("lazy").setup({
     --    { import = "cantrip.plugins.extras.quicknote" },
     { import = "cantrip.plugins.extras.tree" },
     -- import/override with your plugins
-    --{ import = "plugins" },
+    { import = "plugins" },
   },
   defaults = {
     lazy = false,
