@@ -32,7 +32,7 @@ require("lazy").setup({
     -- { import = "cantrip.plugins.extras.notes" },
     -- Languange specifc plugins and configs
     { import = "cantrip.plugins.lsp.languages.nearly" },
-    { import = "cantrip.plugins.lsp.languages.markdown" },
+    -- { import = "cantrip.plugins.lsp.languages.markdown" },
     { import = "cantrip.plugins.lsp.languages.typescript" },
     { import = "cantrip.plugins.lsp.languages.nix" },
     --    { import = "cantrip.plugins.extras.quicknote" },

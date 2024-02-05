@@ -15,6 +15,19 @@ return {
     config = function() end,
   },
   {
+    "nvim-neotest/neotest",
+    dependencies = {
+      "marilari88/neotest-vitest",
+    },
+    config = function()
+      require("neotest").setup({
+        adapters = {
+          require("neotest-vitest"),
+        },
+      })
+    end,
+  },
+  {
     "jbyuki/venn.nvim",
     requires = "anuvyklack/hydra.nvim",
     config = function()
